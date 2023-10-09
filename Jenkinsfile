@@ -10,7 +10,7 @@ pipeline {
     }
     stage('Test2') {
       steps {
-        sh 'python3 -c print("Hello World")'
+        sh 'python3 -c print "Hello World" '
       }
     }
   }
