@@ -10,7 +10,7 @@ pipeline {
     }
     stage('Test2') {
       steps {
-        sh 'python3 /MavenProject-Jenkins/test.py'
+        sh 'python3 test.py'
       }
     }
   }
