@@ -8,10 +8,10 @@ pipeline {
         sh 'python3 --version'
       }
     }
-  }
     stage('Test2') {
       steps {
         sh 'print("Hello World")'
       }
     }
+  }
 }
