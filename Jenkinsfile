@@ -9,11 +9,9 @@ pipeline {
       }
     }
   }
-  stages {
     stage('Test2') {
       steps {
         sh 'print("Hello World")'
       }
     }
-  }
 }
